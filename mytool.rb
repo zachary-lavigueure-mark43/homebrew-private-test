@@ -1,5 +1,5 @@
 require "formula"
-# require_relative "../custom_download_strategy.rb"
+require_relative "../custom_download_strategy.rb"
 
 class Wget < Formula
   homepage ""
