@@ -2,9 +2,9 @@ require "formula"
 require_relative "../custom_download_strategy.rb"
 
 class Wget < Formula
-  homepage "https://www.gnu.org/software/wget/"
-  url "https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy 
-  sha256 "52126be8cf1bddd7536886e74c053ad7d0ed2aa89b4b630f76785bac21695fcd"
+  homepage ""
+  url "https://github.com/zachary-lavigueure-mark43/homebrew-private-test/blob/main/mytool.rb", :using => GitHubPrivateRepositoryReleaseDownloadStrategy 
+  sha256 "983f7fe3daf96e4c89c0c1cd90bcde9ef9938fc8ee300379f7f361aacca3f09f"
 
   def install
     system "./configure", "--prefix=#{prefix}"
